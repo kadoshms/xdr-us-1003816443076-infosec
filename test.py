@@ -1,2 +1,2 @@
 print("hello")
-secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY123"
+secret_key = os.get_env("secret")
