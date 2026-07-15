@@ -2,8 +2,8 @@ import boto3
 
 def get_s3_client():
     # A scanner will flag the AKIA prefix and the entropy of the secret key
-    access_key = os.get_env("SECRET2")
-    secret_key = os.get_env("SECRET1")
+    access_key = "dsxdfd1232NN7EXAMPLE"
+    secret_key = "wJalrSSSSSXUtnFEMI/K7MDENG/bPxRfiCYE123XSXAMPLEKEY123"
 
     client = boto3.client(
         's3',
